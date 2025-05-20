@@ -1,6 +1,5 @@
 fn main() {
-   
-   let num : i32 = 43 ;
-   println!("{}",num);
+    let name = String::from("sujal verma");
+    println!("{}",name.chars().nth(300).unwrap());
 
 }
