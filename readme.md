@@ -7,3 +7,7 @@ I will be sharing all the content and rust projects in [Rust](https://github.com
 
 Feel free to use and fork.
 
+## Compiling
+```terminal
+biuld : cargo build
+directly run : cargo run
