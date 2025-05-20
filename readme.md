@@ -11,7 +11,7 @@ Feel free to use and fork.
 ```terminal
 biuld : cargo build
 directly run : cargo run
-
+```
 
 signing off,
 Sujal Verma
