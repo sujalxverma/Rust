@@ -2,23 +2,15 @@
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 Helvetica-Bold;
 \f3\fnil\fcharset0 AppleColorEmoji;\f4\froman\fcharset0 Times-Roman;}
 {\colortbl;\red255\green255\blue255;\red209\green209\blue209;\red72\green139\blue206;\red255\green255\blue255;
-\red0\green0\blue0;\red255\green255\blue255;\red71\green138\blue206;\red210\green210\blue209;\red141\green213\blue254;
-\red165\green165\blue165;\red67\green192\blue160;\red212\green213\blue153;\red177\green166\blue255;\red194\green125\blue100;
-\red188\green189\blue188;\red210\green210\blue209;\red0\green0\blue0;\red0\green0\blue0;\red0\green0\blue0;
-\red255\green255\blue255;\red72\green139\blue206;\red210\green210\blue209;\red142\green213\blue255;\red166\green166\blue165;
-\red67\green192\blue160;\red255\green255\blue255;\red228\green228\blue224;\red0\green0\blue0;\red212\green213\blue153;
-\red209\green209\blue209;\red0\green0\blue0;\red71\green137\blue205;\red210\green210\blue209;\red212\green213\blue154;
-\red165\green165\blue165;\red136\green136\blue136;\red67\green192\blue160;\red206\green139\blue216;\red167\green197\blue151;
-\red141\green212\blue254;}
+\red0\green0\blue0;\red255\green255\blue255;\red210\green210\blue209;\red255\green255\blue255;\red142\green213\blue255;
+\red166\green166\blue165;\red67\green192\blue160;\red228\green228\blue224;\red212\green213\blue153;\red0\green0\blue0;
+\red71\green137\blue205;\red210\green210\blue209;\red212\green213\blue154;\red165\green165\blue165;\red136\green136\blue136;
+\red67\green192\blue160;\red206\green139\blue216;\red167\green197\blue151;\red141\green212\blue254;}
 {\*\expandedcolortbl;;\cssrgb\c85490\c85490\c85490;\cssrgb\c34356\c61927\c84545;\cssrgb\c100000\c100000\c100000\c0;
-\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c34146\c61677\c84338;\cssrgb\c85678\c85678\c85464;\cssrgb\c61545\c86704\c99884;
-\cssrgb\c70744\c70743\c70567;\cssrgb\c30631\c78928\c69023;\cssrgb\c86247\c86215\c66392;\cssrgb\c74931\c72226\c100000;\cssrgb\c80772\c56796\c46790;
-\cssrgb\c78604\c78604\c78408;\cssrgb\c85772\c85771\c85450;\cssrgb\c0\c0\c0;\cssrgb\c0\c1\c1;\cssrgb\c0\c1\c1;
-\cssrgb\c100000\c100000\c99971\c0;\cssrgb\c34356\c61927\c84545;\cssrgb\c85772\c85771\c85450;\cssrgb\c61729\c86919\c100000;\cssrgb\c70821\c70820\c70555;
-\cssrgb\c30653\c78980\c69024;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c91362\c91358\c90118;\cssrgb\c0\c1\c1;\cssrgb\c86232\c86184\c66253;
-\cssrgb\c85490\c85490\c85490;\cssrgb\c0\c0\c0\c0;\cssrgb\c33936\c61427\c84130;\cssrgb\c85585\c85584\c85478;\cssrgb\c86261\c86245\c66529;
-\cssrgb\c70666\c70666\c70578;\cssrgb\c60459\c60459\c60383;\cssrgb\c30610\c78876\c69022;\cssrgb\c84873\c62914\c87542;\cssrgb\c71008\c80807\c65805;
-\cssrgb\c61361\c86489\c99746;}
+\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c85772\c85771\c85450;\cssrgb\c100000\c100000\c99971\c0;\cssrgb\c61729\c86919\c100000;
+\cssrgb\c70821\c70820\c70555;\cssrgb\c30653\c78980\c69024;\cssrgb\c91362\c91358\c90118;\cssrgb\c86232\c86184\c66253;\cssrgb\c0\c0\c0\c0;
+\cssrgb\c33936\c61427\c84130;\cssrgb\c85585\c85584\c85478;\cssrgb\c86261\c86245\c66529;\cssrgb\c70666\c70666\c70578;\cssrgb\c60459\c60459\c60383;
+\cssrgb\c30610\c78876\c69022;\cssrgb\c84873\c62914\c87542;\cssrgb\c71008\c80807\c65805;\cssrgb\c61361\c86489\c99746;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww17600\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
@@ -64,7 +56,7 @@ println!("Pointer address: \{\}\'94, *ptr);   // value at that address\
 \}
 \fs24 \cf2 \cb1 \
 
-\fs36 \cf16 \cb4 \
+\fs36 \cf7 \cb4 \
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
@@ -85,44 +77,47 @@ println!("\{\}", a); //
 \cf0 \
 
 \f0\fs36 14. Only one mutable reference, then no more immutable or mutable references allowed, until it is not used.\
-15.\cf18  \cf18 \cb20 \outl0\strokewidth0 \strokec21 let\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec23 user1\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec24 =\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec25 User\cf18 \cb20 \strokec24 \{\cf18 \cb20 \strokec22 name\cf18 \cb20 \strokec24 :\cf18 \cb20 \strokec23 name\cf18 \cb20 \strokec24 ,\cf18 \cb20 \strokec22  age\cf18 \cb20 \strokec24 :\cf18 \cb20 \strokec23 age\cf18 \cb20 \strokec24 \};    // struct object\
-16.  \cf18 \cb26 \strokec27 You create a struct in Rust to organize and group related data into a single, custom data type. Structs allow you to package together multiple values\'97each potentially of different types\'97under one name, making your code more readable, maintainable, and type-safe.\
+15.\cf5  \cb8 let user1 = User\{name:name, age:age\};    // struct object\
+16.  \cb6 You create a struct in Rust to organize and group related data into a single, custom data type. Structs allow you to package together multiple values\'97each potentially of different types\'97under one name, making your code more readable, maintainable, and type-safe.\
 17. Adding functions implicit to a struct	\
 \pard\pardeftab720\partightenfactor0
 
-\f1\fs24 \cf28 \cb4 \strokec21 struct\cf28 \strokec22  \cf28 \strokec25 Rect\cf28 \strokec22  \cf28 \strokec24 \{\cf28 \strokec22 \
-    width \cf28 \strokec24 :\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 ,\cf28 \strokec22 \
-    length \cf28 \strokec24 :\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 ,\cf28 \strokec22 \
+\f1\fs24 \cf5 \cb4 struct Rect \{\
+    width : i32,\
+    length : i32,\
 \
-\cf28 \strokec24 \}\cf28 \strokec22 \
+\}\
 \
-\cf28 \strokec21 impl\cf28 \strokec22  \cf28 \strokec25 Rect\cf28 \strokec22  \cf28 \strokec24 \{\cf28 \strokec22 \
-    \cf28 \strokec21 fn\cf28 \strokec22  \cf28 \strokec29 area\cf28 \strokec24 (&\cf28 \strokec21 self\cf28 \strokec24 )\cf28 \strokec22  \cf28 \strokec24 ->\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 \{\cf28 \strokec22 \
-        \cf28 \strokec21 self\cf28 \strokec24 .\cf28 \strokec22 width \cf28 \strokec24 *\cf28 \strokec22  \cf28 \strokec21 self\cf28 \strokec24 .\cf28 \strokec22 length\
-    \cf28 \strokec24 \}\cf28 \strokec22 \
-\cf28 \strokec24 \}\cf30 \cb1 \strokec30 \
+impl Rect \{\
+    fn area(&self) -> i32\{\
+        self.width * self.length\
+    \}\
+\}\cf2 \cb1 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f0\fs36 \cf18 \cb26 \strokec27 \
+\f0\fs36 \cf5 \cb6 \
 18. Pattern matching helps you match some variants of enum and do some logic.\
 \pard\pardeftab720\partightenfactor0
 
-\f1\fs24 \cf18 \cb31 \strokec32 fn\cf18 \strokec33  \cf18 \strokec34 area\cf18 \strokec35 (\cf18 \strokec36 shape\cf18 \strokec33  \cf18 \strokec35 :\cf18 \strokec33  \cf18 \strokec37 Shape\cf18 \strokec35 )->\cf18 \strokec37 f32\cf18 \strokec35 \{\cf18 \strokec33 \
-    \cf18 \strokec38 match\cf18 \strokec33  \cf18 \strokec36 shape\cf18 \strokec33  \cf18 \strokec35 \{\cf18 \strokec33 \
-        \cf18 \strokec37 Shape\cf18 \strokec35 ::\cf18 \strokec39 Circle\cf18 \strokec35 (\cf18 \strokec40 radius\cf18 \strokec35 )=>\cf18 \strokec33  \cf18 \strokec39 3.14\cf18 \strokec35 *\cf18 \strokec40 radius\cf18 \strokec35 *\cf18 \strokec40 radius\cf18 \strokec35 ,\cf18 \strokec33 \
-        \cf18 \strokec37 Shape\cf18 \strokec35 ::\cf18 \strokec39 Rectangle\cf18 \strokec35 (\cf18 \strokec40 l\cf18 \strokec35 ,\cf18 \strokec33  \cf18 \strokec40 b\cf18 \strokec35 )=>\cf18 \strokec33  \cf18 \strokec40 l\cf18 \strokec35 *\cf18 \strokec40 b\cf18 \strokec35 ,\cf18 \strokec33 \
-        \cf18 \strokec37 Shape\cf18 \strokec35 ::\cf18 \strokec39 Square\cf18 \strokec35 (\cf18 \strokec40 side\cf18 \strokec35 )=>\cf18 \strokec40 side\cf18 \strokec35 *\cf18 \strokec40 side\cf18 \strokec35 ,\cf18 \strokec33 \
-    \cf18 \strokec35 \}\cf18 \strokec33 \
+\f1\fs24 \cf5 \cb14 fn area(shape : Shape)->f32\{\
+    match shape \{\
+        Shape::Circle(radius)=> 3.14*radius*radius,\
+        Shape::Rectangle(l, b)=> l*b,\
+        Shape::Square(side)=>side*side,\
+    \}\
 \
-\cf18 \strokec35 \}\cf18 \cb1 \strokec33 \
+\}\cb1 \
 \pard\pardeftab720\sa240\partightenfactor0
 
-\f0\fs36 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\f0\fs36 \cf0 \kerning1\expnd0\expndtw0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 19.  To flush out the output of the print before taking the input.\
 io::stdout().flush().unwrap(); // Flush the output to display prompt immediately but if you are using println , then there is not need of this.\
 \
-20. \
-\
+20. Option enum\
+enum Option<T> \{\
+	Some(T),\
+	None,\
+\}\
 \
 }
