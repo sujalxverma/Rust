@@ -1,14 +1,20 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2822
 \cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;\f2\fswiss\fcharset0 Helvetica-Bold;
-\f3\froman\fcharset0 Times-Roman;}
+\f3\fnil\fcharset0 AppleColorEmoji;\f4\froman\fcharset0 Times-Roman;}
 {\colortbl;\red255\green255\blue255;\red209\green209\blue209;\red72\green139\blue206;\red255\green255\blue255;
 \red0\green0\blue0;\red255\green255\blue255;\red71\green138\blue206;\red210\green210\blue209;\red141\green213\blue254;
 \red165\green165\blue165;\red67\green192\blue160;\red212\green213\blue153;\red177\green166\blue255;\red194\green125\blue100;
-\red188\green189\blue188;\red209\green209\blue209;\red210\green210\blue209;\red0\green0\blue0;}
+\red188\green189\blue188;\red210\green210\blue209;\red0\green0\blue0;\red0\green0\blue0;\red0\green0\blue0;
+\red255\green255\blue255;\red72\green139\blue206;\red210\green210\blue209;\red142\green213\blue255;\red166\green166\blue165;
+\red67\green192\blue160;\red255\green255\blue255;\red228\green228\blue224;\red0\green0\blue0;\red212\green213\blue153;
+\red209\green209\blue209;}
 {\*\expandedcolortbl;;\cssrgb\c85490\c85490\c85490;\cssrgb\c34356\c61927\c84545;\cssrgb\c100000\c100000\c100000\c0;
 \cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c34146\c61677\c84338;\cssrgb\c85678\c85678\c85464;\cssrgb\c61545\c86704\c99884;
 \cssrgb\c70744\c70743\c70567;\cssrgb\c30631\c78928\c69023;\cssrgb\c86247\c86215\c66392;\cssrgb\c74931\c72226\c100000;\cssrgb\c80772\c56796\c46790;
-\cssrgb\c78604\c78604\c78408;\cssrgb\c85490\c85490\c85490;\cssrgb\c85772\c85771\c85450;\cssrgb\c0\c0\c0;}
+\cssrgb\c78604\c78604\c78408;\cssrgb\c85772\c85771\c85450;\cssrgb\c0\c0\c0;\cssrgb\c0\c1\c1;\cssrgb\c0\c1\c1;
+\cssrgb\c100000\c100000\c99971\c0;\cssrgb\c34356\c61927\c84545;\cssrgb\c85772\c85771\c85450;\cssrgb\c61729\c86919\c100000;\cssrgb\c70821\c70820\c70555;
+\cssrgb\c30653\c78980\c69024;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c91362\c91358\c90118;\cssrgb\c0\c1\c1;\cssrgb\c86232\c86184\c66253;
+\cssrgb\c85490\c85490\c85490;}
 \paperw11900\paperh16840\margl1440\margr1440\vieww17600\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
@@ -36,8 +42,7 @@
 \
 10. p = &num ; \
 println!("Pointer address: \{:p\}", ptr);  // address\
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
-\cf0 println!("Pointer address: \{\}\'94, *ptr);   // value at that address\
+println!("Pointer address: \{\}\'94, *ptr);   // value at that address\
 \
 11. Use std :: io\
 \
@@ -45,36 +50,61 @@ println!("Pointer address: \{:p\}", ptr);  // address\
 \pard\pardeftab720\partightenfactor0
 
 \f1 \cf3 \cb4 \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec3 \
+\
 
-\fs28 \cf5 \cb6 \strokec7 let\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec7 mut\cf5 \cb6 \strokec8  \cf5 \cb6 \ul \ulc5 \strokec9 input\cf5 \cb6 \ulnone \strokec8  \cf5 \cb6 \strokec10 =\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec11 String\cf5 \cb6 \strokec10 ::\cf5 \cb6 \strokec12 new\cf5 \cb6 \strokec10 ();\cf5 \cb6 \strokec8 \
-    \cf5 \cb6 \strokec13 println!\cf5 \cb6 \strokec10 (\cf5 \cb6 \strokec14 "Enter an number : "\cf5 \cb6 \strokec10 );\cf5 \cb6 \strokec8 \
-    \cf5 \cb6 \strokec15 io\cf5 \cb6 \strokec10 ::\cf5 \cb6 \strokec12 stdin\cf5 \cb6 \strokec10 ().\cf5 \cb6 \strokec12 read_line\cf5 \cb6 \strokec10 (&\cf5 \cb6 \strokec7 mut\cf5 \cb6 \strokec8  \cf5 \cb6 \ul \ulc5 \strokec9 input\cf5 \cb6 \ulnone \strokec10 ).\cf5 \cb6 \strokec12 expect\cf5 \cb6 \strokec10 (\cf5 \cb6 \strokec14 "Failed"\cf5 \cb6 \strokec10 );\cf5 \cb6 \strokec8 \
-    \cf5 \cb6 \strokec7 let\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec9 num\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec10 :\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec11 i32\cf5 \cb6 \strokec8  \cf5 \cb6 \strokec10 =\cf5 \cb6 \strokec8  \cf5 \cb6 \ul \ulc5 \strokec9 input\cf5 \cb6 \ulnone \strokec10 .\cf5 \cb6 \strokec12 trim\cf5 \cb6 \strokec10 ().\cf5 \cb6 \strokec12 parse\cf5 \cb6 \strokec10 ().\cf5 \cb6 \strokec12 expect\cf5 \cb6 \strokec10 (\cf5 \cb6 \strokec14 "Please type a number"\cf5 \cb6 \strokec10 );\cf5 \cb6 \strokec8 \
-    \cf5 \cb6 \strokec13 println!\cf5 \cb6 \strokec10 (\cf5 \cb6 \strokec14 "\cf5 \cb6 \strokec7 \{\}\cf5 \cb6 \strokec14 "\cf5 \cb6 \strokec10 ,\cf5 \cb6 \strokec9 num\cf5 \cb6 \strokec10 );\cf5 \cb6 \strokec8 \
-\cf5 \cb6 \strokec10 \}
-\fs24 \cf16 \cb1 \strokec16 \
+\fs28 \cf5 \cb6 let mut \ul \ulc5 input\ulnone  = String::new();\
+    println!("Enter an number : ");\
+    io::stdin().read_line(&mut \ul input\ulnone ).expect("Failed");\
+    let num : i32 = \ul input\ulnone .trim().parse().expect("Please type a number");\
+    println!("\{\}",num);\
+\}
+\fs24 \cf2 \cb1 \
 
-\fs36 \cf17 \cb4 \strokec17 \
+\fs36 \cf16 \cb4 \
 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 13. \expnd0\expndtw0\kerning0
-\outl0\strokewidth0 \strokec18 Rust allows you to have 
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 13. \expnd0\expndtw0\kerning0
+Rust allows you to have 
 \f2\b any number of immutable references
 \f0\b0  as long as there are 
 \f2\b no mutable references at the same time
 \f0\b0 .\
 let a = String::from("hellp");\
 let b = &a;  // Immutable borrow\
-println!("\{\}", a); // \uc0\u9989  This works!\
+println!("\{\}", a); // 
+\f3 \uc0\u9989 
+\f0  This works!\
 
-\f3\fs24 \
+\f4\fs24 \
 \pard\pardeftab720\sa240\partightenfactor0
 \cf0 \
 
 \f0\fs36 14. Only one mutable reference, then no more immutable or mutable references allowed, until it is not used.\
-15. \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+15.\cf18  \cf18 \cb20 \outl0\strokewidth0 \strokec21 let\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec23 user1\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec24 =\cf18 \cb20 \strokec22  \cf18 \cb20 \strokec25 User\cf18 \cb20 \strokec24 \{\cf18 \cb20 \strokec22 name\cf18 \cb20 \strokec24 :\cf18 \cb20 \strokec23 name\cf18 \cb20 \strokec24 ,\cf18 \cb20 \strokec22  age\cf18 \cb20 \strokec24 :\cf18 \cb20 \strokec23 age\cf18 \cb20 \strokec24 \};    // struct object\
+16.  \cf18 \cb26 \strokec27 You create a struct in Rust to organize and group related data into a single, custom data type. Structs allow you to package together multiple values\'97each potentially of different types\'97under one name, making your code more readable, maintainable, and type-safe.\
+17. Adding functions implicit to a struct	\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf28 \cb4 \strokec21 struct\cf28 \strokec22  \cf28 \strokec25 Rect\cf28 \strokec22  \cf28 \strokec24 \{\cf28 \strokec22 \
+    width \cf28 \strokec24 :\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 ,\cf28 \strokec22 \
+    length \cf28 \strokec24 :\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 ,\cf28 \strokec22 \
+\
+\cf28 \strokec24 \}\cf28 \strokec22 \
+\
+\cf28 \strokec21 impl\cf28 \strokec22  \cf28 \strokec25 Rect\cf28 \strokec22  \cf28 \strokec24 \{\cf28 \strokec22 \
+    \cf28 \strokec21 fn\cf28 \strokec22  \cf28 \strokec29 area\cf28 \strokec24 (&\cf28 \strokec21 self\cf28 \strokec24 )\cf28 \strokec22  \cf28 \strokec24 ->\cf28 \strokec22  \cf28 \strokec25 i32\cf28 \strokec24 \{\cf28 \strokec22 \
+        \cf28 \strokec21 self\cf28 \strokec24 .\cf28 \strokec22 width \cf28 \strokec24 *\cf28 \strokec22  \cf28 \strokec21 self\cf28 \strokec24 .\cf28 \strokec22 length\
+    \cf28 \strokec24 \}\cf28 \strokec22 \
+\cf28 \strokec24 \}\cf30 \cb1 \strokec30 \
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs36 \cf18 \cb26 \strokec27 \
+18. Pattern matching helps you match some variants of enum and do some logic.\
+19. 
+\f1\fs24 \cf30 \cb1 \strokec30 \
+
+\f0\fs36 \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \
 \
